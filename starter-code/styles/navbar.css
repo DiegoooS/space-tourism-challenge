@@ -1,0 +1,56 @@
+hr {
+  display: inline-block;
+  width: 473px;
+  position: absolute;
+  top: 48px;
+  left: 112px;
+  padding: 0;
+  margin: 0;
+  opacity: 0.25;
+  z-index: 1;
+}
+
+.nav-bar {
+  height: 96px;
+  position: relative;
+  margin-top: 40px;
+  margin-left: 55px;
+}
+
+.nav-list {
+  height: 100%;
+  width: 830px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+}
+
+.nav-logo {
+  position: absolute;
+  left: 0;
+  top: 24px;
+}
+
+.nav-links {
+  position: absolute;
+  top: 50%;
+  left: 123px;
+  transform: translateY(-50%);
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  line-height: 19px;
+  margin-right: 50px;
+}
+
+.index-style {
+  font-weight: 700;
+  margin-right: 11px;
+}

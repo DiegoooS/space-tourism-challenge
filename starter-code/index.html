@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/main-page.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
+
 <body>
-
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  So, you want to travel to
-  Space
-  Let’s face it; if you want to go to space, you might as well genuinely go to 
-  outer space and not hover kind of on the edge of it. Well sit back, and relax 
-  because we’ll give you a truly out of this world experience!
-
-  Explore
-
+  <div class="nav-bar">
+    <svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+      <g fill="none" fill-rule="evenodd">
+        <circle cx="24" cy="24" r="24" fill="#FFF" />
+        <path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z" />
+      </g>
+    </svg>
+    <hr>
+    <div class="nav-list">
+      <div class="nav-links">
+        <a class="nav-link" href="#"><span class="index-style">00</span><span>Home</span></a>
+        <a class="nav-link" href="#"><span class="index-style">01</span><span>Destination</span></a>
+        <a class="nav-link" href="#"><span class="index-style">02</span><span>Crew</span></a>
+        <a class="nav-link" href="#"><span class="index-style">03</span><span>Technology</span></a>
+      </div>
+    </div>
+  </div>
+    <h2>So, you want to travel to</h2>
+    <h1>Space</h1>
+    <p>Let’s face it; if you want to go to space, you might as well genuinely go to
+    outer space and not hover kind of on the edge of it. Well sit back, and relax
+    because we’ll give you a truly out of this world experience!</p>
+    <a href="#">Explore</a>
 </body>
+
 </html>
