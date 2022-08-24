@@ -24,7 +24,7 @@ hr {
   right: 0;
   top: 0;
   background: rgba(255, 255, 255, 0.04);
-  backdrop-filter: blur(81.5485px);
+  backdrop-filter: blur(10px);
 }
 
 .nav-logo {
