@@ -23,16 +23,43 @@
   font-size: 32px;
   line-height: 37px;
   position: absolute;
+  height: 37px;
+  left: 35.33%;
+  right: 33.78%;
   top: calc(50% - 37px/2 + 0.5px);
-  left: 24.83%;
+  z-index: 1;
+}
+
+.main-page-link:hover + .main-page-link-background-hover {
+  display: block;
+}
+
+.main-page-link-group {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: 913px;
+  top: 407px;
 }
 
 .main-page-link-background {
   background-color: white;
-  width: 274px;
-  height: 274px;
-  position: absolute;
-  left: 1001px;
-  top: 495px;
   border-radius: 50%;
+  position: absolute;
+  left: 19.56%;
+  right: 19.56%;
+  top: 19.56%;
+  bottom: 19.56%;
+}
+
+.main-page-link-background-hover {
+  background-color: white;
+  border-radius: 50%;
+  opacity: 0.1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
 }
