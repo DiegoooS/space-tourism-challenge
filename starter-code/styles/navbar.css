@@ -20,7 +20,7 @@
 
 .nav-list {
   height: 100%;
-  width: 830px;
+  width: 80%;
   position: absolute;
   right: 0;
   top: 0;
@@ -37,7 +37,7 @@
 .nav-links {
   position: absolute;
   top: 50%;
-  left: 123px;
+  right: 167px;
   transform: translateY(-50%);
 }
 
@@ -82,4 +82,31 @@
 .index-style {
   font-weight: 700;
   margin-right: 11px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .nav-bar {
+    margin-top: 0;
+  }
+
+  .nav-list {
+    background: none;
+    backdrop-filter: none;
+  }
+
+  .nav-line {
+    display: none;
+  }
+
+  .nav-link {
+    margin-right: 37px;
+  }
+
+  .index-style {
+    display: none;
+  }
+
+  .nav-links {
+    right: 40px;
+  }
 }

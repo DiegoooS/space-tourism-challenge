@@ -1,8 +1,5 @@
 body {
   background-image: url(../assets/crew/background-crew-desktop.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
 
 .crew-header {
@@ -64,8 +61,8 @@ body {
 .crew-image {
   background-repeat: no-repeat;
   background-position: bottom;
-  width: 568.07px;
-  height: 734.93px;
+  width: 700.07px;
+  height: 80%;
   position: absolute;
   left: 734.93px;
   bottom: 0;
@@ -85,4 +82,70 @@ body {
 
 .crew-image-engineer {
   background-image: url(../assets/crew/image-anousheh-ansari.png);
+}
+
+@media only screen and (max-width: 1150px) {
+  body {
+    background-image: url(../assets/crew/background-crew-tablet.jpg);
+  }
+
+  h3 {
+    font-size: 40px;
+    line-height: 46px;
+  }
+
+  .crew-header {
+    left: 38.5px;
+    top: 136px;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 3.375px;
+  }
+
+  .crew-details {
+    top: 220px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 458px;
+  }
+
+  .crew-details-text {
+    width: auto;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .crew-details {
+    font-size: 16px;
+  }
+
+  .crew-details-title {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .crew-nav {
+    margin-top: 40px;
+  }
+
+  .crew-image {
+    width: 356.8px;
+    height: 472px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -43px;
+    z-index: -1;
+    background-size: contain;
+  }
+
+  .crew-nav-link {
+    width: 10px;
+    height: 10px;
+  }
 }

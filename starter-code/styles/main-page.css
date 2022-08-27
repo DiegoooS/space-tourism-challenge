@@ -8,7 +8,6 @@ body {
 .main-page-description {
   position: absolute;
   width: 450px;
-  height: 382px;
   left: 165px;
   top: 387px;
 }
@@ -45,7 +44,7 @@ body {
   width: 450px;
   height: 450px;
   position: absolute;
-  left: 913px;
+  left: 801px;
   top: 407px;
 }
 
@@ -69,4 +68,39 @@ body {
   right: 0;
   bottom: 0;
   display: none;
+}
+
+@media only screen and (max-width: 1150px) {
+  .body {
+    background-image: url(../assets/home/background-home-tablet.jpg);
+  }
+
+  .main-page-description {
+    top: 202px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .main-page-link-group {
+    left: 0;
+    right: 0;
+    top: 692px;;
+    margin-left: auto;
+    margin-right: auto;
+    width: 242px;
+    height: 242px;
+  }
+
+  .main-page-link {
+    font-size: 20px;
+    line-height: 37px;
+    left: 19.01%;
+    right: 19.83%;
+    top: calc(50% - 37px/2 + 0.5px);
+    z-index: 1;
+    text-align: center;
+  }
 }
