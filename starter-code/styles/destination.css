@@ -163,3 +163,51 @@ body {
     text-align: center;
   }
 }
+
+@media only screen and (max-width: 670px) {
+  body {
+    background-image: url(../assets/destination/background-destination-mobile.jpg);
+  }
+
+  .destination-image {
+    width: 170px;
+    height: 170px;
+  }
+
+  .destination-info {
+    top: 420px;
+  }
+
+  .destination-planet-name {
+    margin-top: 20px;
+  }
+
+  .destination-planet-description {
+    margin-top: 1px;
+  }
+
+  .destination-link {
+    font-size: 15px;
+    line-height: 25px;
+    margin-right: 20px;
+  }
+
+  .destination-details {
+    margin-top: 14px;
+  }
+
+  .destination-details-container-1 {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .destination-details-container-2 {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .destination-line {
+    margin: 14px 0 0 0;
+  }
+}

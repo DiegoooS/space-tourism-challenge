@@ -110,6 +110,11 @@ p {
     line-height: 100px;
   }
 
+  h2 {
+    font-size: 56px;
+    line-height: 64px;
+  }
+
   p {
     font-size: 15px;
     line-height: 25px;
