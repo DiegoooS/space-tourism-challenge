@@ -5,23 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/shared.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/crew.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
-
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
-
-  02 Meet your crew
-
-  Mission Specialist
-  Mark Shuttleworth
-
-  Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind 
-  the Linux-based Ubuntu operating system. Shuttleworth became the first South 
-  African to travel to space as a space tourist.
+  <div class="nav-bar">
+    <svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+      <g fill="none" fill-rule="evenodd">
+        <circle cx="24" cy="24" r="24" fill="#FFF" />
+        <path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z" />
+      </g>
+    </svg>
+    <hr class="nav-line">
+    <div class="nav-list">
+      <div class="nav-links">
+        <a class="nav-link" href="index.html"><span class="index-style">00</span><span>HOME</span><div class="nav-link-hover"></div></a>
+        <a class="nav-link" href="destination-moon.html"><span class="index-style">01</span><span>DESTINATION</span><div class="nav-link-hover"></div></a>
+        <a class="nav-link" href="crew-commander.html"><span class="index-style">02</span><span>CREW</span><div class="nav-link-active"></div></a>
+        <a class="nav-link" href="technology-vehicle.html"><span class="index-style">03</span><span>TECHNOLOGY</span><div class="nav-link-hover"></div></a>
+      </div>
+    </div>
+  </div>
+  <h5 class="crew-header"><span class="crew-header-number">02</span><span class="crew-header-text">MEET YOUR CREW</span></h5>
+  <div class="crew-details">
+    <h4 class="crew-details-title">Mission Specialist</h4>
+    <h3>MARK SHUTTLEWORTH</h3>
+    <p class="crew-details-text ">Mark Richard Shuttleworth is the founder and CEO of Canonical,
+       the company behind the Linux-based Ubuntu operating system.
+       Shuttleworth became the first South African to travel to space as a space tourist.</p>
+    <div class="crew-nav">
+      <a class="crew-nav-link" href="crew-commander.html"></a>
+      <a class="crew-nav-link crew-nav-link-active" href="crew-specialist.html"></a>
+      <a class="crew-nav-link" href="crew-pilot.html"></a>
+      <a class="crew-nav-link" href="crew-engineer.html"></a>
+    </div>
+  </div>
+  <div class="crew-image crew-image-specialist"></div>
 </body>
 </html>

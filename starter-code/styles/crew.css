@@ -21,3 +21,68 @@ body {
   margin-left: 28px;
   color: white;
 }
+
+.crew-details {
+  position: absolute;
+  top: 400px;
+  left: 165.5px;
+}
+
+.crew-details-title {
+  opacity: 0.5;
+  margin-bottom: 15px;
+}
+
+.crew-details-text {
+  color: #D0D6F9;
+  width: 444px;
+  margin-top: 27px;
+}
+
+.crew-nav {
+  margin-top: 120px;
+}
+
+.crew-nav-link {
+  width: 15px;
+  height: 15px;
+  background-color: #FFFFFF;
+  opacity: 0.17;
+  display: inline-block;
+  margin-right: 24px;
+  border-radius: 50%;
+}
+
+.crew-nav-link:hover {
+  opacity: 0.5;
+}
+
+.crew-nav-link-active {
+  opacity: 1;
+}
+
+.crew-image {
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 568.07px;
+  height: 734.93px;
+  position: absolute;
+  left: 734.93px;
+  bottom: 0;
+}
+
+.crew-image-commander {
+  background-image: url(../assets/crew/image-douglas-hurley.png);
+}
+
+.crew-image-specialist {
+  background-image: url(../assets/crew/image-mark-shuttleworth.png);
+}
+
+.crew-image-pilot {
+  background-image: url(../assets/crew/image-victor-glover.png);
+}
+
+.crew-image-engineer {
+  background-image: url(../assets/crew/image-anousheh-ansari.png);
+}

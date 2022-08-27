@@ -25,7 +25,7 @@ body {
 .destination-info {
   width: 445px;
   position: absolute;
-  right: 163px;
+  left: 832px;
   top: 310px;
 }
 
@@ -111,6 +111,7 @@ body {
   position: absolute;
   top: 227px;
   left: 111px;
+  z-index: -1;
 }
 
 .destination-image-moon {

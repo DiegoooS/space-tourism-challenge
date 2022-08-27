@@ -1,0 +1,116 @@
+body {
+  background-image: url(../assets/technology/background-technology-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.technology-header {
+  position: absolute;
+  left: 166.5px;
+  top: 212px;
+}
+
+.technology-header-number {
+  font-weight: 700;
+  opacity: 0.25;
+  color: white;
+}
+
+.technology-header-text {
+  margin-left: 28px;
+  color: white;
+}
+
+.technology-nav {
+  position: absolute;
+  left: 165px;
+  top: 383px;
+  width: 80px;
+}
+
+.technology-nav-link {
+  position: relative;
+  font-family: "Bellefair";
+  display: block;
+  width: 80px;
+  height: 80px;
+  border: 1px solid;
+  border-radius: 50%;
+  border-color: rgba(255, 255, 255, 0.25);
+  color: white;
+  text-decoration: none;
+  margin-bottom: 32px;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 36.67px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.technology-nav-link:hover {
+  border-color: #FFFFFF;
+}
+
+.technology-nav-link-active {
+  color: black;
+  background-color: white;
+  border: none;
+}
+
+.technology-nav-link-number {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.technology-info {
+  position: absolute;
+  top: 383px;
+  left: 325px;
+  width: 470px;
+}
+
+.technology-info-subheading {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  color: #D0D6F9;
+  margin-bottom: 11px;
+}
+
+.technology-info-text {
+  color: #D0D6F9;
+  margin-top: 17px;
+}
+
+.technology-image {
+  position: absolute;
+  top: 98px;
+  left: 903px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  width: 552px;
+  height: 858px;
+}
+
+.technology-image-vehicle {
+  background-image: url(../assets/technology/image-launch-vehicle-portrait.jpg);
+}
+
+.technology-image-spaceport {
+  background-image: url(../assets/technology/image-spaceport-portrait.jpg);
+}
+
+.technology-image-capsule {
+  background-image: url(../assets/technology/image-space-capsule-portrait.jpg);
+}
