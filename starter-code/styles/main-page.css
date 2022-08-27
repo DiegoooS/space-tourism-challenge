@@ -1,5 +1,5 @@
 body {
-  background-image: url(../assets/home/background-home-desktop.jpg);
+  background: url(../assets/home/background-home-desktop.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -71,8 +71,8 @@ body {
 }
 
 @media only screen and (max-width: 1150px) {
-  .body {
-    background-image: url(../assets/home/background-home-tablet.jpg);
+  body {
+    background: url(../assets/home/background-home-tablet.jpg);
   }
 
   .main-page-description {
@@ -102,5 +102,26 @@ body {
     top: calc(50% - 37px/2 + 0.5px);
     z-index: 1;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  body {
+    background: url(../assets/home/background-home-mobile.jpg);
+  }
+
+  .main-page-description {
+    position: absolute;
+    width: 327px;
+  }
+
+  .main-page-link-group {
+    top: 500px;;
+    width: 242px;
+    height: 242px;
+  }
+
+  .main-page-link {
+    font-size: 17px; 
   }
 }

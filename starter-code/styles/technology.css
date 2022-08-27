@@ -92,9 +92,9 @@ body {
 .technology-image {
   position: absolute;
   top: 98px;
-  left: 903px;
+  right: 0;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: right;
   z-index: -1;
   width: 552px;
   height: 858px;
@@ -136,6 +136,7 @@ body {
     width: 100%;
     height: 30vh;
     background-size: cover;
+    background-position: center;
   }
 
   .technology-image-vehicle {
