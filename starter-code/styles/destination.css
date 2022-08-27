@@ -1,0 +1,130 @@
+body {
+  background-image: url(../assets/destination/background-destination-desktop.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.destination-header {
+  position: absolute;
+  left: 166.5px;
+  top: 212px;
+}
+
+.destination-header-number {
+  font-weight: 700;
+  opacity: 0.25;
+  color: white;
+}
+
+.destination-header-text {
+  margin-left: 28px;
+  color: white;
+}
+
+.destination-info {
+  width: 445px;
+  position: absolute;
+  right: 163px;
+  top: 310px;
+}
+
+.destination-list {
+  width: 100%;
+}
+
+.destination-link {
+  color: white;
+  text-decoration: none;
+  font-family: "Barlow Condensed";
+  font-size: 16px;
+  letter-spacing: 2.7px;
+  line-height: 19px;
+  margin-right: 35px;
+  font-style: normal;
+  font-weight: 400;
+  position: relative;
+}
+
+.destination-link:hover .destination-link-hover
+{
+  display: block;
+}
+
+.destination-link-active {
+  width: 100%;
+  height: 3px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.destination-link-hover {
+  width: 100%;
+  height: 3px;
+  background-color: #FFFFFF;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  opacity: 0.5;
+  display: none;
+}
+
+.destination-planet-name {
+  margin-top: 37px;
+}
+
+.destination-planet-description {
+  color: #D0D6F9;
+  margin-top: 14px;
+}
+
+.destination-line {
+  width: 100%;
+  padding: 0;
+  margin: 54px 0 0 0;
+  opacity: 0.25;
+  z-index: 1;
+  display: block;
+}
+
+.destination-details {
+  margin-top: 28px;
+  position: relative;
+}
+
+.destination-details-container-1 {
+  display: inline-block;
+  margin-right: 79px;
+}
+
+.destination-details-container-2 {
+  display: inline-block;
+}
+
+.destination-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 678px;
+  height: 678px;
+  position: absolute;
+  top: 227px;
+  left: 111px;
+}
+
+.destination-image-moon {
+  background-image: url(../assets/destination/image-moon.png);
+}
+
+.destination-image-mars {
+  background-image: url(../assets/destination/image-mars.png);
+}
+
+.destination-image-europa {
+  background-image: url(../assets/destination/image-europa.png);
+}
+
+.destination-image-titan {
+  background-image: url(../assets/destination/image-titan.png);
+}

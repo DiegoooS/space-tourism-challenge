@@ -6,10 +6,6 @@ html, body {
 body {
   margin: 0;
   min-height: 100vh;
-  background-image: url(../assets/home/background-home-desktop.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
   color: #FFFFFF;
   font-weight: 400;
 }
@@ -70,4 +66,25 @@ p {
   font-size: 18px;
   line-height: 32px;
   margin: 0;
+}
+
+.subheading-1 {
+  font-family: "Bellefair";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.subheading-2 {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 2.3625px;
+  text-transform: uppercase;
+  color: #D0D6F9;
 }

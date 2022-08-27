@@ -1,4 +1,4 @@
-hr {
+.nav-line {
   display: inline-block;
   width: 473px;
   position: absolute;
@@ -76,7 +76,6 @@ hr {
   left: 0;
   opacity: 0.5;
   display: none;
-
 }
 
 .index-style {

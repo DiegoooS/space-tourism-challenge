@@ -5,34 +5,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="styles/shared.css">
+  <link rel="stylesheet" href="styles/destination.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
+  <div class="nav-bar">
+    <svg class="nav-logo" xmlns="http://www.w3.org/2000/svg" width="48" height="48">
+      <g fill="none" fill-rule="evenodd">
+        <circle cx="24" cy="24" r="24" fill="#FFF" />
+        <path fill="#0B0D17" d="M24 0c0 16-8 24-24 24 15.718.114 23.718 8.114 24 24 0-16 8-24 24-24-16 0-24-8-24-24z" />
+      </g>
+    </svg>
+    <hr class="nav-line">
+    <div class="nav-list">
+      <div class="nav-links">
+        <a class="nav-link" href="index.html"><span class="index-style">00</span><span>HOME</span><div class="nav-link-hover"></div></a>
+        <a class="nav-link" href="destination-moon.html"><span class="index-style">01</span><span>DESTINATION</span><div class="nav-link-active"></div></a>
+        <a class="nav-link" href="crew-commander.html"><span class="index-style">02</span><span>CREW</span><div class="nav-link-hover"></div></a>
+        <a class="nav-link" href="technology-vehicle.html"><span class="index-style">03</span><span>TECHNOLOGY</span><div class="nav-link-hover"></div></a>
+      </div>
+    </div>
+  </div>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <h5 class="destination-header"><span class="destination-header-number">01</span><span class="destination-header-text">PICK YOUR DESTINATION</span></h5>
 
-  01 Pick your destination
-
-  Moon
-  Mars
-  Europa
-  Titan
-
-  Europa
-
-  The smallest of the four Galilean moons orbiting Jupiter, Europa is a 
-  winter lover’s dream. With an icy surface, it’s perfect for a bit of 
-  ice skating, curling, hockey, or simple relaxation in your snug 
-  wintery cabin.
-
-  Avg. distance
-  628 mil. km
-
-  Est. travel time
-  3 years
+  <div class="destination-info">
+    <div class="destination-list">
+      <div class="destination-links">
+        <a class="destination-link" href="destination-moon.html"><span>MOON</span><div class="destination-link-hover"></div></a>
+        <a class="destination-link" href="destination-mars.html"><span>MARS</span><div class="destination-link-hover"></div></a>
+        <a class="destination-link" href="destination-europa.html"><span>EUROPA</span><div class="destination-link-active"></div></a>
+        <a class="destination-link" href="destination-titan.html"><span>TITAN</span><div class="destination-link-hover"></div></a>
+      </div>
+    </div>
+    <h2 class="destination-planet-name">EUROPA</h2>
+    <p class="destination-planet-description">
+      The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream.
+      With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in
+      your snug wintery cabin.
+    </p>
+    <hr class="destination-line">
+    <div class="destination-details">
+      <div class="destination-details-container-1">
+        <p class="subheading-2">AVG. DISTANCE</p>
+        <p class="subheading-1">628 MIL. KM</p>
+      </div>
+      <div class="destination-details-container-2">
+        <p class="subheading-2">EST. TRAVEL TIME</p>
+        <p class="subheading-1">3 YERS</p>
+      </div>
+    </div>
+  </div>
+  <div class="destination-image destination-image-europa"></div>
 </body>
 </html>
